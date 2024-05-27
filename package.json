@@ -1,0 +1,14 @@
+{
+  "name": "blog_postgres",
+  "version": "0.1.0",
+  "description": "Custom blog platfrom, mainly built to learn new tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
