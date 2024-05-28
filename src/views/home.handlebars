@@ -1,0 +1,9 @@
+{{#*inline "feedItem"}}
+	<h3>{{title}}</h3>
+	<p>{{content}}... <a href="{{link}}">read more</a></p>
+
+	<hr/>
+{{/inline}}
+{{#each feed}}
+	{{> feedItem}}
+{{/each}}
