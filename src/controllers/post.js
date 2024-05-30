@@ -7,6 +7,7 @@ function getPost(req, res) {
 	// add entry for each database entry, up to a max of 10
 	output = { };
 	output.title = data.title;
+	output.date = "30 May 2024";
 	output.content = data.content;
 	// render
 	res.render('post.handlebars', output);
